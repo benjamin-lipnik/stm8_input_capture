@@ -360,6 +360,8 @@
 #define TIM1_BKR                _SFR_(TIM1_BASE_ADDRESS + 0x1D)
 #define TIM1_DTR                _SFR_(TIM1_BASE_ADDRESS + 0x1E)
 #define TIM1_OISR               _SFR_(TIM1_BASE_ADDRESS + 0x1F)
+#define TIM1_CR1_CEN            0
+#define TIM1_CR1_ARPE           7
 
 /* TIM2 (mutually exclusive with TIM5) */
 #define TIM2_BASE_ADDRESS       0x5300
